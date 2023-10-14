@@ -17,7 +17,7 @@ import 'package:awesome_drawing_quiz/game_route.dart';
 import 'package:awesome_drawing_quiz/home_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,12 +36,12 @@ void main() async {
       theme: ThemeData(
         primaryColor: AppTheme.primary,
         primaryColorDark: AppTheme.primaryDark,
-        accentColor: AppTheme.accent,
-        textTheme: GoogleFonts.acmeTextTheme().copyWith(
-            button: GoogleFonts.ubuntuMono(
-              fontSize: 16,
-              fontWeight: FontWeight.bold,
-            )),
+        // accentColor: AppTheme.accent,
+        // textTheme: GoogleFonts.acmeTextTheme().copyWith(
+        //     button: GoogleFonts.ubuntuMono(
+        //       fontSize: 16,
+        //       fontWeight: FontWeight.bold,
+        //     )),
         buttonTheme: ButtonThemeData(
           buttonColor: AppTheme.accent,
           shape: RoundedRectangleBorder(

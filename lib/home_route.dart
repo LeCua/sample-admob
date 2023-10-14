@@ -47,7 +47,7 @@ class HomeRoute extends StatelessWidget {
                 if (snapshot.hasData)
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Theme.of(context).accentColor,
+                      // primary: Theme.of(context).accentColor,
                     ),
                     onPressed: () {
                       Navigator.of(context).pushNamed('/game');
